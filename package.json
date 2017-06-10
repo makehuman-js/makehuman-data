@@ -1,12 +1,12 @@
 {
   "name": "makehuman-data",
   "version": "0.0.1",
-  "description": "Provides makehuman.org's data in json as a t package.",
+  "description": "Provides makehuman.org's data in json as a npm package.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "contributors": "http://www.makehuman.org/halloffame.php",
   "author": "wassname",
-  "license": "AGPL-3.0"
+  "license": "http://www.makehuman.org/license.php"
 }

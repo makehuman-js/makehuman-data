@@ -1,4 +1,4 @@
-Provides makehuman.org's data in json as a javascript package.
+Provides some of makehuman.org's data as a npm package
 
 # Setup
 
@@ -9,8 +9,8 @@ This is meant to be run on linux with hg, python, and jupyter-notebook installed
 
 # Licence
 
-AGPL-3.0
+This project inherits [makehuman.orgs AGPLv3 derived licence ](http://www.makehuman.org/license.php)
 
 # Credits
 
-This package provides data from makehuman.org  so see the makehuman project's contributors.
+This package provides data from makehuman.org so see the [makehuman project's contributors](http://www.makehuman.org/halloffame.php).
