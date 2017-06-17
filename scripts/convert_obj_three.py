@@ -235,8 +235,8 @@ TEMPLATE_FILE_BIN = u"""\
 TEMPLATE_VERTEX = "%f,%f,%f"
 TEMPLATE_VERTEX_TRUNCATE = "%d,%d,%d"
 
-TEMPLATE_N = "%.5g,%.5g,%.5g"
-TEMPLATE_UV = "%.5g,%.5g"
+TEMPLATE_N = "%.6g,%.6g,%.6g"
+TEMPLATE_UV = "%.6g,%.6g"
 TEMPLATE_COLOR = "%.3g,%.3g,%.3g"
 TEMPLATE_COLOR_DEC = "%d"
 
@@ -673,6 +673,7 @@ def parse_obj(fname):
                         if vertex['n'] < 0:
                             vertex['n'] += normlen
                         normal_index.append(vertex['n'])
+
                 faces.append({
                     'vertex':vertex_index,
                     'uv':uv_index,
